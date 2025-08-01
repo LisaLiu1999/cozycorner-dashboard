@@ -9,7 +9,7 @@ The dashboard is fully responsive and features a drag-and-drop interface, allowi
 
 ---
 
-## <img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/280d0397-0a76-4e30-8b9f-cc00ddd4a6d4" />
+## <img width="12" height="12" alt="image" src="https://github.com/user-attachments/assets/280d0397-0a76-4e30-8b9f-cc00ddd4a6d4" />
 Key Features
 
 * **🎨 Customizable Dashboard**:
