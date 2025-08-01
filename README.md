@@ -11,27 +11,27 @@ The dashboard is fully responsive and features a drag-and-drop interface, allowi
 
 Key Features
 
-* ** Customizable Dashboard**:
+* **Customizable Dashboard**:
     * **Drag & Drop Interface**: Easily rearrange widgets to create your perfect layout.
     * **Add & Remove Widgets**: Add new widgets from the sidebar and remove them when you no longer need them.
     * **Persistent Layout**: Your widget layout is automatically saved in your browser's local storage.
 
-* ** Light & Dark Mode**:
+* **Light & Dark Mode**:
     * Toggle between a light and a cozy dark theme.
     * Your theme preference is saved and will be remembered on your next visit.
 
-* ** Fully Responsive Design**:
+* **Fully Responsive Design**:
     * A seamless experience across desktop, tablet, and mobile devices.
     * The sidebar intelligently switches between a fixed panel on desktop and an off-canvas overlay on smaller screens.
 
-* ** Current Widgets**:
+* **Current Widgets**:
     * **Weather**: Real-time weather data for a specified location.
     * **Latest News**: Top technology headlines from around the world.
     * **Cat Fact**: A fun, random fact about cats on every refresh.
 
 ---
 
-##  Technologies Used
+## Technologies Used
 
 * **Frontend**: React.js
 * **Build Tool**: Vite
