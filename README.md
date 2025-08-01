@@ -9,7 +9,8 @@ The dashboard is fully responsive and features a drag-and-drop interface, allowi
 
 ---
 
-## ✨ Key Features
+## <img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/280d0397-0a76-4e30-8b9f-cc00ddd4a6d4" />
+Key Features
 
 * **🎨 Customizable Dashboard**:
     * **Drag & Drop Interface**: Easily rearrange widgets to create your perfect layout.
