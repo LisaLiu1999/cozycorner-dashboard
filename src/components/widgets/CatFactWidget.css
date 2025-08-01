@@ -1,0 +1,10 @@
+.cat-fact-widget .widget-icon {
+  color: var(--rose-500);
+}
+
+.fact-text {
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}

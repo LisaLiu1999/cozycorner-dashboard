@@ -1,0 +1,118 @@
+/* CSS Variables for theming */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Warm color palette */
+  --peach-50: #fef7f0;
+  --peach-100: #fdeee1;
+  --peach-200: #fad5bd;
+  --peach-300: #f7b894;
+  --peach-400: #f39268;
+  --peach-500: #ef6f45;
+  --peach-600: #e05a39;
+  --peach-700: #c14530;
+  
+  --coral-50: #fff5f5;
+  --coral-100: #ffe8e8;
+  --coral-200: #ffc9c9;
+  --coral-300: #ffa8a8;
+  --coral-400: #ff8787;
+  --coral-500: #ff6b6b;
+  --coral-600: #fa5252;
+  
+  --rose-50: #fff0f6;
+  --rose-100: #ffdeeb;
+  --rose-200: #fcc2d7;
+  --rose-300: #faa2c1;
+  --rose-400: #f783ac;
+  --rose-500: #f06292;
+  --rose-600: #e91e63;
+  --rose-700: #ad1457;
+  
+  --lavender-50: #f8f7ff;
+  --lavender-100: #ede9fe;
+  --lavender-200: #ddd6fe;
+  --lavender-300: #c4b5fd;
+  --lavender-400: #a78bfa;
+  --lavender-500: #8b5cf6;
+  --lavender-600: #7c3aed;
+  --lavender-700: #6d28d9;
+  
+  --sage-50: #f7faf7;
+  --sage-100: #eef5ee;
+  --sage-200: #d4e8d4;
+  --sage-300: #b8dab8;
+  --sage-400: #9bcc9b;
+  --sage-500: #7ebe7e;
+  --sage-600: #5fb35f;
+  --sage-700: #4a934a;
+  
+  --cream-50: #fffef7;
+  --cream-100: #fffbeb;
+  --cream-200: #fef3c7;
+  --cream-300: #fde68a;
+  --cream-400: #fcd34d;
+  --cream-500: #fbbf24;
+  --cream-600: #f59e0b;
+  --cream-700: #d97706;
+  
+  /* Neutral colors */
+  --gray-50: #fafafa;
+  --gray-100: #f5f5f5;
+  --gray-200: #e5e5e5;
+  --gray-300: #d4d4d4;
+  --gray-400: #a3a3a3;
+  --gray-500: #737373;
+  --gray-600: #525252;
+  --gray-700: #404040;
+  --gray-800: #262626;
+  --gray-900: #171717;
+  
+  /* Light theme variables */
+  --bg-primary: var(--cream-50);
+  --bg-secondary: var(--cream-100);
+  --bg-tertiary: white;
+  --text-primary: var(--gray-800);
+  --text-secondary: var(--gray-600);
+  --text-muted: var(--gray-500);
+  --border-color: var(--gray-200);
+  
+  /* Shadows */
+  --shadow-light: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  --shadow-medium: 0 4px 6px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.06);
+  --shadow-heavy: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  
+  /* Border radius */
+  --radius-small: 8px;
+  --radius-medium: 12px;
+  --radius-large: 16px;
+  --radius-xl: 20px;
+  --radius-full: 50px;
+  
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+}
+
+/* Dark theme overrides */
+.app.dark {
+  --bg-primary: var(--gray-900);
+  --bg-secondary: var(--gray-800);
+  --bg-tertiary: var(--gray-700);
+  --text-primary: var(--gray-100);
+  --text-secondary: var(--gray-300);
+  --text-muted: var(--gray-400);
+  --border-color: var(--gray-600);
+  --shadow-light: 0 1px 3px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-medium: 0 4px 6px rgba(0, 0, 0, 0.3), 0 2px 4px rgba(0, 0, 0, 0.2);
+  --shadow-heavy: 0 10px 15px rgba(0, 0, 0, 0.4), 0 4px 6px rgba(0, 0, 0, 0.2);
+}

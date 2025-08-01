@@ -1,0 +1,67 @@
+/* NewsWidget Component Styles */
+
+.news-widget .widget-icon {
+  color: var(--sage-500);
+}
+
+.news-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.news-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+  background: var(--bg-secondary);
+  border-radius: var(--radius-medium);
+  transition: all var(--transition-fast);
+  cursor: pointer;
+}
+
+.news-item:hover {
+  background: var(--sage-100);
+  transform: translateX(4px);
+}
+
+.news-content {
+  flex: 1;
+}
+
+.news-title {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  line-height: 1.4;
+  margin-bottom: var(--spacing-sm);
+}
+
+.news-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.news-source {
+  font-weight: 500;
+}
+
+.news-time {
+  opacity: 0.8;
+}
+
+.news-link-icon {
+  width: 1rem;
+  height: 1rem;
+  color: var(--text-muted);
+  opacity: 0.5;
+  transition: opacity var(--transition-fast);
+}
+
+.news-item:hover .news-link-icon {
+  opacity: 1;
+}
