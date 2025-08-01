@@ -49,7 +49,7 @@ const App = () => {
   const fetchAllData = async () => {
     const promises = [
       fetch('https://api.open-meteo.com/v1/forecast?latitude=51.0447&longitude=-114.0719&current_weather=true&hourly=temperature_2m,relative_humidity_2m,wind_speed_10m'),
-      fetch(`https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=817c480bb64542b19e6983561eadb88c`),
+      fetch(`https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=${import.meta.env.VITE_NEWS_API_KEY}`),
       fetch('https://catfact.ninja/fact')
     ];
 
