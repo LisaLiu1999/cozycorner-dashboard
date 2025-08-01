@@ -2,7 +2,8 @@
 
 <img width="1542" height="839" alt="Screenshot 2025-07-31 at 10 49 51 PM" src="https://github.com/user-attachments/assets/04ae6eab-86d2-48f9-83a1-d8e1d7542f79" />
 
-Welcome to **Cozy Corner Dashboard**! This is a clean, modern, and highly customizable personal dashboard built with React and Vite. It's designed to be your go-to homepage for essential information at a glance, with a focus on a warm and pleasant user experience.
+Welcome to **Cozy Corner Dashboard**! This is a clean, modern, and highly customizable personal dashboard built with React and Vite. 
+It's designed to be your go-to homepage for essential information at a glance, with a focus on a warm and pleasant user experience.
 
 The dashboard is fully responsive and features a drag-and-drop interface, allowing you to arrange widgets exactly how you like.
 
