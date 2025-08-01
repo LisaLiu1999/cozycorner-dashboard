@@ -58,7 +58,7 @@ You need to have Node.js and npm (or yarn/pnpm) installed on your machine.
 
 1.  **Clone the repository**
     ```sh
-    git clone [https://github.com/your-username/cozy-corner-dashboard.git](https://github.com/your-username/cozy-corner-dashboard.git)
+    git clone [https://github.com/LisaLiu1999/cozycorner-dashboard.git]
     ```
 
 2.  **Navigate to the project directory**
